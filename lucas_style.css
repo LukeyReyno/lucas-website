@@ -42,7 +42,7 @@ body {
     margin-right: 25px;
     list-style-type: none;
     position: fixed;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
     z-index: inherit;
 }
@@ -105,4 +105,89 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     margin-left: -5%;
+}
+
+.portfolio {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portL {
+    float: left;
+    z-index: 2;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    margin-top:30px;
+    margin-right: 5px;
+    padding: 15px;
+    background-color: #f1cd8b;
+    border-radius: 15px;
+    box-shadow: 0 0 15px;
+}
+
+.portL > a {
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portR > a {
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portR {
+    z-index: 2;
+    float: right;
+    margin-right: 5%;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px;
+}
+
+#port1
+{
+    background-color: rgb(139, 207, 241);
+}
+
+#port2 a:link{
+    color:white;
+    text-decoration: underline;
+    padding: 15%;
+}
+
+#port2 a:visited{
+    color:white;
+    text-decoration: underline;
+    padding: 15%;
+}
+
+#port2 a:hover{
+    font-size: 115%;
+    text-decoration: underline;
+    padding: 15%;
+}
+
+#port2
+{
+    background-color: maroon;
+    color: white;
+}
+
+.portR > ul
+{
+    font-size: 20px;
+}
+.portR > ul > li
+{
+    font-size: 16px;
+    text-align: left;
+}
+
+#port4
+{
+    background-color: lightgray;
 }
