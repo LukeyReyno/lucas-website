@@ -187,7 +187,13 @@ body {
     text-align: left;
 }
 
-#port4
+#courses1
 {
-    background-color: lightgray;
+    background-color: lavender;
+    box-shadow: 0 0 0;
+}
+
+a
+{
+    color: inherit;
 }
