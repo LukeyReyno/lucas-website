@@ -19,7 +19,6 @@ body {
 }
 
 .header {
-    top: 0;
     z-index: 20;
 }
 
@@ -65,6 +64,7 @@ body {
 
 #headerbg {
     position: fixed;
+    top: 0;
     margin: 0;
     background-color: rgb(46, 104, 230);
     z-index: 3;
@@ -210,4 +210,18 @@ a
     margin-right: auto;
     margin-left: auto;
     width: 100%;
+}
+
+#resume
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: block;
+    width: 50%; 
+    height: 650px;
+    background-color: aliceblue;
+    padding: 1% 1% 1% 1%;
+    border: 3px solid black;
+    border-radius: 10px;
 }
