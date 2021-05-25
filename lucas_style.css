@@ -190,6 +190,7 @@ body {
 #courses1
 {
     background-color: lavender;
+    background-color: rgb(231, 250, 230);
     box-shadow: 0 0 0;
 }
 
@@ -201,12 +202,10 @@ a
 
 #coursesBlock
 {
-    background-color: lightgreen; 
-    display: block;
+    background-color: rgb(231, 250, 230); 
     margin-top: 100px; 
     text-align: center;
     border-radius: 15px;
-    box-shadow: 0 0 15px;
     padding: 5%;
     margin-right: auto;
     margin-left: auto;
