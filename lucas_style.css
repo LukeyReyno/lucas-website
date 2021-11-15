@@ -153,28 +153,34 @@ body {
     background-color: rgb(139, 207, 241);
 }
 
-#port2 a:link{
+#port2
+{
+    background-color: white;
+}
+
+#port4 a:link{
     color:white;
     text-decoration: underline;
     padding: 15%;
 }
 
-#port2 a:visited{
+#port4 a:visited{
     color:white;
     text-decoration: underline;
     padding: 15%;
 }
 
-#port2 a:hover{
+#port4 a:hover{
     font-size: 115%;
     text-decoration: underline;
     padding: 15%;
 }
 
-#port2
+#port4
 {
     background-color: maroon;
     color: white;
+    box-shadow: 0 0 15px black;
 }
 
 .portR > ul
