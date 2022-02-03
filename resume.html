@@ -18,8 +18,14 @@
             </ul>
             <span id="headerbg"></span>
         </div>
-        <div>
-            <embed id="resume" src="Files/ReynaLStudentResume.pdf">
+        <div id="resume">
+            <h3 id="resumeHTML">hello</h3>
+            <embed id="resumeViewer" src=""></embed>
         </div>
+        <script type="text/javascript">
+            document.getElementById("resumeViewer").src = "Files/ReynaLStudentResume.pdf";
+            resumeModifiedDate = document.lastModified
+            document.getElementById("resumeHTML").innerHTML = "Last Modified: " + resumeModifiedDate;
+        </script>
     </body>
 </html>
