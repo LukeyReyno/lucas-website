@@ -198,6 +198,7 @@ body {
     background-color: lavender;
     background-color: rgb(231, 250, 230);
     box-shadow: 0 0 0;
+    float: unset;
 }
 
 a
@@ -216,6 +217,19 @@ a
     margin-right: auto;
     margin-left: auto;
     width: 100%;
+}
+
+#fixed_left_blocks
+{
+    margin-top: 50px;
+    position: fixed;
+    width: 40%;
+    min-width: 460px;
+}
+
+.block_body
+{
+    min-width: 1110px;
 }
 
 #resume
