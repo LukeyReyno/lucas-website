@@ -1,5 +1,5 @@
 html{
-    background-color: lavender;
+    background-color: rgb(30, 30, 30);
 }
 
 body {
@@ -31,6 +31,7 @@ body {
     top: 0px;
     text-align: center;
     z-index: inherit;
+    color: aliceblue;
 }
 
 .header > ul {
@@ -51,6 +52,7 @@ body {
     background-color: inherit;
     margin-right: 20px;
     transition: 0.2s;
+    color: white; /* text color */
 }
 
 .header > ul > li:hover {
@@ -66,7 +68,7 @@ body {
     position: fixed;
     top: 0;
     margin: 0;
-    background-color: rgb(46, 104, 230);
+    background-color: black;
     z-index: 3;
     padding-right: 100%;
     padding-top: 50px;
