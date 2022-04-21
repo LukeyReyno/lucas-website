@@ -24,32 +24,34 @@
         <div class="portfolio" style="color: aliceblue;">
             <h1> Click a block to see information</h1>
 
-            <div class="portfolio-object" onclick="expand(this)">
-                <span id="file-arrow">&#10224;</span>
+            <div class="portfolio-object" onclick="expand(this, 'course-info')">
+                <span class="file-arrow">&#10224;</span>
                 <br>
                 <span>University Course Information</span>
+                <div id="course-info"></div>
             </div>
-            <div class="portfolio-object">
-                <span>&#10224;</span>
+            <div class="portfolio-object" onclick="expand(this, 'moonrift')">
+                <span class="file-arrow">&#10224;</span>
                 <br>
                 <span>MoonRift Entertainment Internship</span>
+                <div id="moonrift"></div>
             </div>
-            <div class="portfolio-object">
+            <div class="portfolio-object" onclick="expand(this)">
                 <span id="file-arrow">&#10224;</span>
                 <br>
                 <span>Public Discord Bot</span>
             </div>
-            <div class="portfolio-object">
+            <div class="portfolio-object" onclick="expand(this)">
                 <span id="file-arrow">&#10224;</span>
                 <br>
                 <span>Some Basic Web Experience</span>
             </div>
-            <div class="portfolio-object">
+            <div class="portfolio-object" onclick="expand(this)">
                 <span id="file-arrow">&#10224;</span>
                 <br>
                 <span>FIRST Robotics Experience</span>
             </div>
-            <div class="portfolio-object" id="last-portfolio-object">
+            <div class="portfolio-object" id="last-portfolio-object" onclick="expand(this)">
                 <span id="file-arrow">&#10224;</span>
                 <br>
                 <span>Unity Game Development</span>
