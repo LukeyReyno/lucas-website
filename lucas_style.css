@@ -110,20 +110,38 @@ body {
 }
 
 .portfolio {
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
-.portfolio-object {
+.portfolio-header {
     position: relative;
     background-color: rgb(15, 15, 15);
     z-index: 3;
-    padding-bottom: 1.5%;
-    text-align: center;
     border-top: 10px solid black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    -webkit-user-select: none; /* Webkit */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10 */
+    /* Currently not supported in Opera but will be soon */
+    -o-user-select: none;
+    user-select: none;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
-#last-portfolio-object {
+.portfolio-header-clickable {
+    padding-bottom: 1.5%;
+}
+
+.portfolio-object {
+    padding-bottom: 1%;
+}
+
+#last-portfolio-header {
     border-bottom: 10px solid black;
 }
 
