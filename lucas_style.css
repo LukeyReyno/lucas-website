@@ -1,5 +1,5 @@
 html{
-    background-color: lavender;
+    background-color: rgb(30, 30, 30);
 }
 
 body {
@@ -31,6 +31,7 @@ body {
     top: 0px;
     text-align: center;
     z-index: inherit;
+    color: aliceblue;
 }
 
 .header > ul {
@@ -51,6 +52,7 @@ body {
     background-color: inherit;
     margin-right: 20px;
     transition: 0.2s;
+    color: white; /* text color */
 }
 
 .header > ul > li:hover {
@@ -66,7 +68,7 @@ body {
     position: fixed;
     top: 0;
     margin: 0;
-    background-color: rgb(46, 104, 230);
+    background-color: black;
     z-index: 3;
     padding-right: 100%;
     padding-top: 50px;
@@ -108,7 +110,39 @@ body {
 }
 
 .portfolio {
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.portfolio-header {
+    position: relative;
+    background-color: rgb(15, 15, 15);
+    z-index: 3;
+    border-top: 10px solid black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    -webkit-user-select: none; /* Webkit */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10 */
+    /* Currently not supported in Opera but will be soon */
+    -o-user-select: none;
+    user-select: none;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.portfolio-header-clickable {
+    padding-bottom: 1.5%;
+}
+
+.portfolio-object {
+    padding-bottom: 1%;
+}
+
+#last-portfolio-header {
+    border-bottom: 10px solid black;
 }
 
 .portL {
