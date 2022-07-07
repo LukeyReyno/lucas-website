@@ -66,8 +66,8 @@ var portfolioEntry =
                     <p>Multi-purpose text command and game bot. </br>This bot can also search for images using the reddit commands.</p>\
                     <img style="border-radius: 5px; height: 300px;"src="pictures/WaluigiBotHelp.png"/> </br>\
                     <p>Officially verified by Discord as of March 24, 2021</p>\
-                    <a href="https://discord.bots.gg/bots/223959196238872577">Pubically Verified through discord.bots.gg</a> </br></br>\
-                    <a href="https://top.gg/bot/223959196238872577">Pubically Verified through top.gg/bots</a>\
+                    <a href="https://discord.bots.gg/bots/223959196238872577">Publicly Verified through discord.bots.gg</a> </br></br>\
+                    <a href="https://top.gg/bot/223959196238872577">Publicly Verified through top.gg/bots</a>\
                 </div>',
         "index": 2,
         "expanded": false
