@@ -35,6 +35,22 @@ var portfolioEntry =
         "index": 0,
         "expanded": false
     },
+    "niantic":
+    {
+        "html": '<div class="portfolio-object">\
+                    <a href="https://nianticlabs.com/">\
+                    <img style="border-radius: 5px; height: 200px;"src="pictures/niantic-logo.png"/><br></a>\
+                    <h2>12 Week Internship as part of the AR Engineering Team<br> June 2022 - September 2022</h2>\
+                    <p> Hybrid work in a professional environment </p>\
+                    <p> Incredible opportunity where I got to learn about and implement AR in software. <br></p>\
+                    <p> Worked with experimental internal tools that needed prototyping. <br></p>\
+                    <p> Specifically incorporated VPS or the "Visual Positioning System" along with other features. <br></p>\
+                    <p> Mostly worked with C# and Unity, but occasionaly modified the C++ codebase. <br></p> \
+                    <img style="border-radius: 5px; height: 300px;"src="pictures/ar-meshing.jpg"/><br>\
+                </div>',
+        "index": 1,
+        "expanded": false
+    },
     "moonrift":
     {
         "html": '<div class="portfolio-object">\
@@ -55,7 +71,7 @@ var portfolioEntry =
                     <img style="border-radius: 5px; height: 300px;"src="pictures/to-hell-and-back-capture.png"/><br>\
                     <a href="https://moonrift.itch.io/moonjam-class-4">Link to the game that I worked on</a>\
                 </div>',
-        "index": 1,
+        "index": 2,
         "expanded": false
     },
     "discord":
@@ -69,7 +85,7 @@ var portfolioEntry =
                     <a href="https://discord.bots.gg/bots/223959196238872577">Publicly Verified through discord.bots.gg</a> </br></br>\
                     <a href="https://top.gg/bot/223959196238872577">Publicly Verified through top.gg/bots</a>\
                 </div>',
-        "index": 2,
+        "index": 3,
         "expanded": false
     },
     "website":
@@ -82,7 +98,7 @@ var portfolioEntry =
                     <a href="https://shabbybrocante.com/">Website for my family\'s online shops</a> <br><br>\
                     <img style="border-radius: 5px; height: 300px;"src="pictures/Portfolio_Website.png"/> <br>\
                 </div>',
-        "index": 3,
+        "index": 4,
         "expanded": false
     },
     "robotics":
@@ -103,7 +119,7 @@ var portfolioEntry =
                     </ul>\
                     <p>During college, I aided with the CAD mentorship in prepartion for the 2021 Build Season.</p>\
                 </div>',
-        "index": 4,
+        "index": 5,
         "expanded": false
     },
     "unity":
@@ -123,7 +139,7 @@ var portfolioEntry =
                         <br>It is a 3D puzzle came where you must push cubes to their rightful destination.\
                         <br>I hope to learn more about Unity and possibly design more games in my free time.</p>\
                 </div>',
-        "index": 5,
+        "index": 6,
         "expanded": false
     }
 }
