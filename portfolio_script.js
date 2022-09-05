@@ -1,42 +1,39 @@
-function expand(object, id) {
-    if (portfolioEntry[id].expanded) {
-        expandedSection = document.getElementById(id);
+function expand(object, index) {
+    let thisId = portfolioEntry[index].id;
+    let expandedSection = document.getElementById(thisId);
+    let arrow = document.getElementsByClassName("file-arrow")[index];
+
+    if (portfolioEntry[index].expanded) {
         expandedSection.innerHTML = "";
-        let index = portfolioEntry[id].index;
-        let arrow = document.getElementsByClassName("file-arrow")[index];
         arrow.innerHTML = '&#10224;';
-        portfolioEntry[id].expanded = false;
+        portfolioEntry[index].expanded = false;
     }
     else {
-        expandedSection = document.getElementById(id);
-        let html = getPortfolioInfoHTML(id);
-        let index = portfolioEntry[id].index;
-        let arrow = document.getElementsByClassName("file-arrow")[index];
+        let html = getPortfolioInfoHTML(index);
         arrow.innerHTML = '&#10225;';
         expandedSection.insertAdjacentHTML("afterbegin", html);
-        portfolioEntry[id].expanded = true;
+        portfolioEntry[index].expanded = true;
     }
 }
 
-function getPortfolioInfoHTML(id) {
-    return portfolioEntry[id].html;
+function getPortfolioInfoHTML(index) {
+    return portfolioEntry[index].html;
 }
 
 var portfolioEntry =
-{
-    "course-info":
+[
     {
+        "id": 'course-info',
         "html": '<div class="portfolio-object">\
                     <a href="courses.html">\
                         <p style="font-family: sans-serif;">Click here for my list of completed college courses</p>\
                         <img style="border-radius: 5px; height: 300px;"src="pictures/EducationImage.png"/>\
                     </a>\
                 </div>',
-        "index": 0,
         "expanded": false
     },
-    "niantic":
     {
+        "id": 'niantic',
         "html": '<div class="portfolio-object">\
                     <a href="https://nianticlabs.com/">\
                     <img style="border-radius: 5px; height: 200px;"src="pictures/niantic-logo.png"/><br></a>\
@@ -48,11 +45,33 @@ var portfolioEntry =
                     <p> Mostly worked with C# and Unity, but occasionaly modified the C++ codebase. <br></p> \
                     <img style="border-radius: 5px; height: 300px;"src="pictures/ar-meshing.jpg"/><br>\
                 </div>',
-        "index": 1,
         "expanded": false
     },
-    "moonrift":
     {
+        "id": 'gitfit',
+        "html": '<div class="portfolio-object">\
+                    <a href="https://www.gitfit.me/">\
+                    <img style="border-radius: 5px; height: 150px;"src="pictures/GitFitLogo.svg"/><br></a>\
+                    <br><h2><a href="https://github.com/LukeSandsor/GitFit-App">GitHub Repo</a></h2>\
+                    <h2>6 Week Web Application Project for CSC 307 - Introduction to Software Engineering</h2>\
+                    <p> Dynamic Website utilizing the MERN Techstack </p>\
+                    <div style="text-align: left; margin: 0 auto; display: block; width: max-content;">\
+                        <ul> Feature Summary: \
+                            <li> Allows for encrypted account creation for users to store fitness and nutrition information on a daily basis </li>\
+                            <li> Daily calendar implemented with moods and daily information for an easy way to view user history </li>\
+                            <li> Other interactive chart and calculator sections for users </li>\
+                            <li> Some account settings, such as delete user data </li>\
+                        </ul>\
+                    </div>\
+                    <p> Communicating within a group of four to create a live, usable, and maintainable website <br></p>\
+                    <p> Worked with professional software engineering standards, project organizations, and documentation <br></p>\
+                    <p> Everyone in the group worked across the tech stack to implement different pages of the application <br></p>\
+                    <img style="border-radius: 5px; height: 300px;"src="http://1.bp.blogspot.com/-5EC7uXfIxR8/VlhTFG2O2uI/AAAAAAAAXg0/eAT3wtpDk3s/s1600/SystemsPlus-Scrum-Image-.jpg"/><br>\
+                </div>',
+        "expanded": false
+    },
+    {
+        "id": 'moonrift',
         "html": '<div class="portfolio-object">\
                     <a href="https://moonriftentertainment.com/">\
                     <img style="border-radius: 5px; height: 200px;"src="pictures/moon-rift-logo.jpg"/><br></a>\
@@ -71,11 +90,10 @@ var portfolioEntry =
                     <img style="border-radius: 5px; height: 300px;"src="pictures/to-hell-and-back-capture.png"/><br>\
                     <a href="https://moonrift.itch.io/moonjam-class-4">Link to the game that I worked on</a>\
                 </div>',
-        "index": 2,
         "expanded": false
     },
-    "discord":
     {
+        "id": 'discord',
         "html": '<div class="portfolio-object">\
                     <p>Self-hosted bot created by me in Python using the Discord.py library</p>\
                     <a href="https://discord.com/oauth2/authorize?client_id=223959196238872577&scope=bot%20applications.commands&permissions=2147609664">Direct Link to Bot Invite</br>(Must be logged into Discord)</a>\
@@ -85,24 +103,21 @@ var portfolioEntry =
                     <a href="https://discord.bots.gg/bots/223959196238872577">Publicly Verified through discord.bots.gg</a> </br></br>\
                     <a href="https://top.gg/bot/223959196238872577">Publicly Verified through top.gg/bots</a>\
                 </div>',
-        "index": 3,
         "expanded": false
     },
-    "website":
     {
+        "id": 'website',
         "html": '<div class="portfolio-object">\
-                    <p>I have begun to take an interest in Web Development<br>\
-                    The websites that I created so far are fairly basic, but I hope to learn more</p>\
+                    A collection of static websites used to host various information</p>\
                     <a href="https://lukeyreyno.github.io/lucas-website/index.html">This Website</a> <br>\
                     <a href="https://lukeyreyno.github.io/lukeyreyno-website/">Support Site for my Discord Bot</a><br>\
                     <a href="https://shabbybrocante.com/">Website for my family\'s online shops</a> <br><br>\
                     <img style="border-radius: 5px; height: 300px;"src="pictures/Portfolio_Website.png"/> <br>\
                 </div>',
-        "index": 4,
         "expanded": false
     },
-    "robotics":
     {
+        "id": 'robotics',
         "html": '<div class="portfolio-object">\
                     <a href="https://www.team5458.com/">Team 5458 Website</a>\
                     <br><br><br>\
@@ -119,11 +134,10 @@ var portfolioEntry =
                     </ul>\
                     <p>During college, I aided with the CAD mentorship in prepartion for the 2021 Build Season.</p>\
                 </div>',
-        "index": 5,
         "expanded": false
     },
-    "unity":
     {
+        "id": 'unity',
         "html": '<div class="portfolio-object">\
                     <a href="https://play.unity.com/u/lucas-reyna">Link to my Unity Projects</a>\
                     </br></br></br>\
@@ -139,7 +153,6 @@ var portfolioEntry =
                         <br>It is a 3D puzzle came where you must push cubes to their rightful destination.\
                         <br>I hope to learn more about Unity and possibly design more games in my free time.</p>\
                 </div>',
-        "index": 6,
         "expanded": false
     }
-}
+]
