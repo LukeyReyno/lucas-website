@@ -40,10 +40,37 @@ var portfolioEntry =
                     <h2>12 Week Internship as part of the AR Engineering Team<br> June 2022 - September 2022</h2>\
                     <p> Hybrid work in a professional environment </p>\
                     <p> Incredible opportunity where I got to learn about and implement AR in software. <br></p>\
-                    <p> Worked with experimental internal tools that needed prototyping. <br></p>\
-                    <p> Specifically incorporated VPS or the "Visual Positioning System" along with other features. <br></p>\
-                    <p> Mostly worked with C# and Unity, but occasionaly modified the C++ codebase. <br></p> \
+                    <p> I learned how to utilize several <a>https://lightship.dev/</a> features on the Unity Level. <br></p>\
+                    <p> My time at Niantic expressed how important feedback is when considering how to evolve Software and APIs.<br></p>\
+                    <p> Being able to experiment with new technologies like VPS ("Visual Positioning System") was definitely a highlight.<br></p>\
+                    <p> Mostly worked with C# and Unity, but occasionaly worked with Python, C++, Shell Script. <br></p> \
                     <img style="border-radius: 5px; height: 300px;"src="pictures/ar-meshing.jpg"/><br>\
+                </div>',
+        "expanded": false
+    },
+    {
+        "id": 'networks',
+        "html": '<div class="portfolio-object">\
+                    <a href="https://catalog.calpoly.edu/search/?P=CPE%20464">\
+                    <img style="border-radius: 5px; height: 150px;"src="pictures/network-diagram.jpg"/><br></a>\
+                    <h2>3 Programming Projects for Networks Class</h2>\
+                    <p> My Introduction to Networks course at Cal Poly gave us the task to create Unix programs that utilize network features. </p>\
+                    <div style="text-align: left; margin: 0 auto; display: block; width: max-content;">\
+                        <h3> Project List (code must be kept private):</h3>\
+                            <ul> Network Packet Parser\
+                                <li> Given a file of packets ".pcap", the program should be able to parse, then detail the addresses and info of that packet.</li>\
+                            </ul>\
+                            <ul> Multiclient Chat Server\
+                                <li> Server using TCP to communicate messages between different clients. </li>\
+                                <li> The client can specify whether or not to broadcast messages. </li>\
+                                <li> Clients can also request other information from server. </li>\
+                            </ul>\
+                            <ul> File Transfer from Server using Sliding Window\
+                                <li> Error rates can be set to artificially cause packet transmissions in UDP to fail. </li>\
+                                <li> The server and client have to communicate in order to ensure that the data is being sent successfully and efficiently. </li>\
+                            </ul>\
+                    </div>\
+                    <p> This was definitely a tough class, but I believe that I got a lot out of the projects and assessments. <br></p>\
                 </div>',
         "expanded": false
     },
@@ -66,7 +93,7 @@ var portfolioEntry =
                     <p> Communicating within a group of four to create a live, usable, and maintainable website <br></p>\
                     <p> Worked with professional software engineering standards, project organizations, and documentation <br></p>\
                     <p> Everyone in the group worked across the tech stack to implement different pages of the application <br></p>\
-                    <img style="border-radius: 5px; height: 300px;"src="http://1.bp.blogspot.com/-5EC7uXfIxR8/VlhTFG2O2uI/AAAAAAAAXg0/eAT3wtpDk3s/s1600/SystemsPlus-Scrum-Image-.jpg"/><br>\
+                    <img style="border-radius: 5px; height: 300px;"src="pictures/SystemsPlus-Scrum-Image.jpg"/><br>\
                 </div>',
         "expanded": false
     },
