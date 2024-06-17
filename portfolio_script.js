@@ -77,7 +77,6 @@ var portfolioEntry =
     {
         "id": 'gitfit',
         "html": '<div class="portfolio-object">\
-                    <a href="https://www.gitfit.me/">\
                     <img style="border-radius: 5px; height: 150px;"src="pictures/GitFitLogo.svg"/><br></a>\
                     <br><h2><a href="https://github.com/LukeSandsor/GitFit-App">GitHub Repo</a></h2>\
                     <h2>6 Week Web Application Project for CSC 307 - Introduction to Software Engineering</h2>\
@@ -129,17 +128,6 @@ var portfolioEntry =
                     <p>Officially verified by Discord as of March 24, 2021</p>\
                     <a href="https://discord.bots.gg/bots/223959196238872577">Publicly Verified through discord.bots.gg</a> </br></br>\
                     <a href="https://top.gg/bot/223959196238872577">Publicly Verified through top.gg/bots</a>\
-                </div>',
-        "expanded": false
-    },
-    {
-        "id": 'website',
-        "html": '<div class="portfolio-object">\
-                    A collection of static websites used to host various information</p>\
-                    <a href="https://lukeyreyno.github.io/lucas-website/index.html">This Website</a> <br>\
-                    <a href="https://lukeyreyno.github.io/lukeyreyno-website/">Support Site for my Discord Bot</a><br>\
-                    <a href="https://shabbybrocante.com/">Website for my family\'s online shops</a> <br><br>\
-                    <img style="border-radius: 5px; height: 300px;"src="pictures/Portfolio_Website.png"/> <br>\
                 </div>',
         "expanded": false
     },
